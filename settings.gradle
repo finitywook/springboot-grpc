@@ -1,0 +1,4 @@
+rootProject.name = 'springboot-grpc'
+
+include 'apps:members'
+include 'apps:orders'
