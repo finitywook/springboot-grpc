@@ -1,13 +1,13 @@
-package me.hanwook.grpc;
+package me.hanwook.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MemberApplication {
+public class OrderApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MemberApplication.class, args);
+		SpringApplication.run(OrderApplication.class, args);
 	}
 
 }
