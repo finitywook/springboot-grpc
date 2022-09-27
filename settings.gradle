@@ -1,7 +1,6 @@
 rootProject.name = 'springboot-grpc'
 
 include 'protos'
-include 'grpc-server'
 include 'apps'
 
 include 'apps:members'
