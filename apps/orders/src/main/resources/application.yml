@@ -2,7 +2,6 @@
 server:
   port: 9010
 
-
 # logging
 logging:
   level:
@@ -25,3 +24,8 @@ spring:
     properties:
       hibernate:
         format_sql: true
+
+# grpc
+grpc:
+  server:
+    port: 9090

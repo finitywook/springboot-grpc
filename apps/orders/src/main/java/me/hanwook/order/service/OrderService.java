@@ -17,6 +17,9 @@ public class OrderService {
 
     @Transactional
     public Order create(Long userId, String name, int quantity, int price) {
+
+        log.debug("OrderService :: create");
+
         return orderRepository.save(
                 Order.builder()
                         .userId(userId)
