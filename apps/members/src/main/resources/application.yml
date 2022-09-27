@@ -24,3 +24,10 @@ spring:
     properties:
       hibernate:
         format_sql: true
+grpc:
+  server:
+    port: 9091
+  client:
+    orderServiceClient:
+      address: static://localhost:9090
+      negotiation-type: PLAINTEXT
