@@ -30,19 +30,4 @@ class MemberServiceTest {
                         .build()
         );
     }
-
-    @Test
-    @Transactional
-    public void 사용자_단건_조회() throws Exception {
-        // given
-        Long id = 1L;
-
-        // when
-        Member member = memberService.findById(id);
-
-        // then
-        assertThat(member.getLoginId()).isEqualTo("test");
-        assertThat(member.getPassword()).isEqualTo("p@ss");
-        assertThat(member.getName()).isEqualTo("TEST");
-    }
 }
